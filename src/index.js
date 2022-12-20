@@ -13,3 +13,5 @@ const select = new Select('#select', {
     { id: '7', value: 'Else' },
   ],
 });
+
+window.customSelect = select;
